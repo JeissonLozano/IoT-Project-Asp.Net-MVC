@@ -256,12 +256,6 @@
     <Content Include="Vendors\bootstrap\js\dist\util.js.map" />
     <Content Include="Vendors\bootstrap\js\tests\README.md" />
     <Content Include="Vendors\bootstrap\js\tests\unit\.eslintrc.json" />
-    <Content Include="Vendors\fontawesome\css\font-awesome.css.map" />
-    <Content Include="Vendors\fontawesome\fonts\fontawesome-webfont.eot" />
-    <Content Include="Vendors\fontawesome\fonts\fontawesome-webfont.ttf" />
-    <Content Include="Vendors\fontawesome\fonts\fontawesome-webfont.woff" />
-    <Content Include="Vendors\fontawesome\fonts\fontawesome-webfont.woff2" />
-    <Content Include="Vendors\fontawesome\fonts\FontAwesome.otf" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -275,6 +269,11 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="packages.config" />
     <Content Include="Vendors\jquery\jquery.min.map" />
+    <Content Include="Vendors\fontawesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Vendors\fontawesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Vendors\fontawesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Vendors\fontawesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Vendors\fontawesome\fonts\FontAwesome.otf" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
