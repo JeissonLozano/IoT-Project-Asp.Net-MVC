@@ -277,6 +277,16 @@
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ENTIDAD\ENTIDAD.csproj">
+      <Project>{9635172c-9f7f-449c-b961-65f81c0fbd9f}</Project>
+      <Name>ENTIDAD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NEGOCIO\NEGOCIO.csproj">
+      <Project>{18093aa7-ed1c-4867-b2d6-60d9745c0900}</Project>
+      <Name>NEGOCIO</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
